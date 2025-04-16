@@ -1,0 +1,20 @@
+body {
+    text-align: center; /* Centers the h1 heading */
+}
+
+.image-gallery {
+    display: inline-block; /* Allows the container to adjust to content width */
+    text-align: center; /* Centers the images within the container */
+}
+
+.image-row {
+    display: flex; /* Aligns images in a horizontal line */
+    justify-content: center; /* Centers images horizontally */
+    flex-wrap: wrap; /* Allows images to wrap to the next line if necessary */
+    gap: 10px; /* Adds space between images */
+}
+
+.image-row img {
+    width: 100px; /* Sets a consistent width for all images */
+    height: auto; /* Maintains the aspect ratio of images */
+}
